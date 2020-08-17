@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="./addComment.js"></script>
+    <title>Node server</title>
+  </head>
+  <body>
+    <h1 class="title">Test Node Webserver</h1>
+    <div class="comment-board">
+      <ul id="comments">
+        <li class="comment">comment example<button>X</button></li>
+      </ul>
+      <form id="form">
+        <input id="commentInput" type="text" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

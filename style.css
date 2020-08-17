@@ -1,0 +1,22 @@
+body {
+  max-width: 800px;
+  min-height: 80vh;
+  margin: 0 auto;
+}
+#commentInput {
+  width: 90%;
+}
+ul {
+  list-style: none;
+  margin-left: -40px;
+}
+button {
+  float: right;
+}
+.comment {
+  margin-bottom: 5px;
+}
+.comment-board {
+  border: 1px black solid;
+  padding: 30px;
+}
